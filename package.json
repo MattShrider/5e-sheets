@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MattShrider/5e-char-sheets"
+    "url": "git+https://github.com/MattShrider/5e-sheets"
   },
   "author": "shrider.dev@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MattShrider/5e-char-sheets/issues"
+    "url": "https://github.com/MattShrider/5e-sheets/issues"
   },
-  "homepage": "https://github.com/MattShrider/5e-char-sheets",
+  "homepage": "https://github.com/MattShrider/5e-sheets",
   "dependencies": {
     "graphql": "^14.6.0"
   },
