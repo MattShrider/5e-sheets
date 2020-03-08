@@ -1,0 +1,25 @@
+{
+  "name": "@shrider/5e-sheets",
+  "version": "0.0.0",
+  "description": "D&D Character Sheets and serverless/graphql learning site",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s:login": "serverless login",
+    "s:deploy": "serverless deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattShrider/5e-char-sheets"
+  },
+  "author": "shrider.dev@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattShrider/5e-char-sheets/issues"
+  },
+  "homepage": "https://github.com/MattShrider/5e-char-sheets",
+  "dependencies": {
+    "graphql": "^14.6.0"
+  },
+  "private": true
+}
