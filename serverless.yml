@@ -31,12 +31,6 @@ provider:
         - dynamodb:UpdateItem
       Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE}"
 
-outputs:
-  custom-output: any-value-here
-
-# you can overwrite defaults here
-#  stage: dev
-#  region: us-east-1
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
@@ -54,9 +48,6 @@ outputs:
 #            - "Ref" : "ServerlessDeploymentBucket"
 #            - "/*"
 
-# you can define service wide environment variables here
-#  environment:
-#    variable1: value1
 
 # you can add packaging information here
 #package:

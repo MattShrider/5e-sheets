@@ -8,7 +8,9 @@
     "s": "serverless",
     "s:login": "serverless login",
     "s:deploy": "serverless deploy",
-    "s:offline": "serverless offline"
+    "s:offline": "serverless offline",
+    "s:dashboard": "serverless dashboard",
+    "s:logs": "serverless logs -f "
   },
   "repository": {
     "type": "git",
