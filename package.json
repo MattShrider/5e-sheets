@@ -5,8 +5,10 @@
   "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "s": "serverless",
     "s:login": "serverless login",
-    "s:deploy": "serverless deploy"
+    "s:deploy": "serverless deploy",
+    "s:offline": "serverless offline"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,11 @@
   },
   "homepage": "https://github.com/MattShrider/5e-sheets",
   "dependencies": {
+    "aws-sdk": "^2.635.0",
     "graphql": "^14.6.0"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "serverless-offline": "^6.0.0-alpha.67"
+  }
 }

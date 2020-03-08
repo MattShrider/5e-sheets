@@ -7,6 +7,9 @@ const {
   GraphQLString,
   GraphQLNonNull
 } = require('graphql')
+const AWS = require('aws-sdk');
+const dynamoDb = new AWS.DynamoDB.DocumentClient();
+
 
 // This method just inserts the user's first name into the greeting message.
 const getGreeting = firstName => `Hello, ${firstName}.`
