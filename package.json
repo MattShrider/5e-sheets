@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/MattShrider/5e-sheets",
   "dependencies": {
-    "aws-sdk": "^2.635.0",
+    "aws-sdk": "^2.814.0",
     "graphql": "^14.6.0"
   },
   "private": true,
