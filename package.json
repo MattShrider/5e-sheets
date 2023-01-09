@@ -28,6 +28,6 @@
   },
   "private": true,
   "devDependencies": {
-    "serverless-offline": "^6.0.0-alpha.67"
+    "serverless-offline": "^12.0.4"
   }
 }
